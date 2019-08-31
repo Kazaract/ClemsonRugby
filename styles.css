@@ -1,5 +1,4 @@
 /*
-  font-family: goudy-old-style, serif
   Clemson Orange (Orange): #F66733
   Regalia        (Purple): #522D80
   Fort Hill       (White): #FFFFFF
@@ -9,8 +8,7 @@
   --c_orange:#F66733;
   --c_purple:#522D80;
 }
-
-/*  h1 {
+h1 {
   font-family: goudy-old-style, serif;
   font-style: normal;
   font-weight: bold;
@@ -20,15 +18,15 @@
 h3 {
   font-family: goudy-old-style, serif;
   font-style: normal;
-  font-weight: bold;
+  font-weigt: 400;
   color: black;
-}*/
+}
 
 p {
   font-family: goudy-old-style, serif;
   font-style: normal;
   font-weight: normal;
-  color: grey;
+  color: black;
 }
 
 a:link, a:hover, a:active, a:visited {
@@ -41,4 +39,18 @@ a:link, a:active, a:visited {
 
 a:hover {
   color: var(--c_purple);
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  border: 3px #522D80;
+  padding: 10px;
+}
+
+.center-h3 {
+  margin: auto;
+  width: 100%;
+  border: 3px #522D80;
+  padding: 10px;
 }
