@@ -13,3 +13,19 @@
 .nav-link:hover {
 	color: #522D80;
 }
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	padding-top: 125px;
+}
+.push {
+	height: 50px;
+}
+.footer {
+	background-color: #D3D3D3;
+	padding-bottom: 10px;
+}
